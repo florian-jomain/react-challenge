@@ -6,7 +6,12 @@ const Home = () => {
     <React.Fragment>
       <NavBar />
       <div className='Home'>
-        <h1>This is the home</h1>
+        <h1>
+          This is the home{" "}
+          <span role='img' aria-label='home'>
+            🏡
+          </span>
+        </h1>
       </div>
     </React.Fragment>
   );
