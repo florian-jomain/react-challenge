@@ -3,10 +3,12 @@ import NavBar from "./NavBar";
 
 const Home = () => {
   return (
-    <div>
+    <React.Fragment>
       <NavBar />
-      <h1>This is the home</h1>
-    </div>
+      <div className='Home'>
+        <h1>This is the home</h1>
+      </div>
+    </React.Fragment>
   );
 };
 
