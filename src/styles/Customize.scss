@@ -1,16 +1,10 @@
-.Temperature {
+.Customize {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    &__group {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     &__header {
         font-size: 3rem;
@@ -22,5 +16,16 @@
         color: black;
         padding: 5px;
         border-radius: 5px;
+    }
+
+    &__slider {
+        margin-bottom: 3vh;
+    }
+
+    &__image {
+        margin-top: 3vh;
+        max-width: 200px;
+        max-height: 200px;
+        border: 2px solid black;
     }
 }
