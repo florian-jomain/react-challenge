@@ -1,0 +1,26 @@
+.Temperature {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__header {
+        font-size: 3rem;
+    }
+
+    &__input {
+        margin: 3vh 0 3vh 0;
+        font-size: 1rem;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
