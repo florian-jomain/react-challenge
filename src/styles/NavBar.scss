@@ -1,0 +1,21 @@
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgrey;
+
+    &__ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    &__li {
+        font-size: 2rem;
+        text-decoration: none;
+        color: black;
+    }
+}
